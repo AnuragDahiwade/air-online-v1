@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+<div class="container-fluid p-0 m-0">
  
     <!-- <div class="container-fluid airHeader">
         <div class="header-logo">
@@ -27,7 +27,7 @@
             </div>
         </div>
     </div> -->
-    <div class="container-fluid airHeader">
+    <!-- <div class="container-fluid airHeader">
         <div class="header-logo">
             <img [attr.loading]="'lazy'" src="/imgs/aironline-logo.png" alt="Lazy Loaded Image">
         </div>
@@ -52,7 +52,44 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary airHeader p-0 m-0">
+        <div class="container-fluid">
+            <div class="header-logo">
+                <img [attr.loading]="'lazy'" src="/imgs/aironline-logo.png" alt="Lazy Loaded Image">
+            </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse right-content" id="navbarNavAltMarkup">
+            <div class="navbar-nav ">
+                <div class="contact-info">
+                    <div class="row phone-contact">
+                        <div class="phone-icon">
+                            <img src="/imgs/phone-logo.png" alt="" srcset="">
+                        </div>
+                        <div class="phone-info">
+                            <div class="phone-text"><span>Call us.</span></div>
+                            <div class="phone-number"><span>+91 83800 05660</span></div>
+                        </div>
+                    </div>
+                    <div class="row email-contact">
+                        <div class="email-icon">
+                            <img src="/imgs/email-logo.png" alt="" srcset="">
+                        </div>
+                        <div class="email-info">
+                            <div class="phone-question"><span>Question?</span></div>
+                            <div class="phone-number"><span>Send us an e-mail</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     
     <app-navbar></app-navbar>
+
+    <app-hero-section></app-hero-section>
 </div>

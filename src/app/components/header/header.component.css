@@ -1,90 +1,17 @@
-/* 
-    .airHeader {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 13px;
-        max-height: 4rem;
-    }
-
-    .header-logo {
-        max-height: 3rem;
-        margin-left: 0.7rem;
-    }
-
-    .header-logo img {
-        max-height: 100%;
-    }
-
-    .contact-info {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
-        margin-right: 0.7rem;
-
-    }
-
-    .phone-icon {
-        display: flex;
-        width: fit-content;
-        padding-right: 0;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .phone-icon img {
-        max-height: 37px;
-        max-width: 37px;
-    }
-
-    .email-icon {
-        display: flex;
-        width: fit-content;
-        padding-right: 0;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-    }
-    .email-icon img {
-        max-height: 40px;
-        max-width: 40px;
-    }
-
-    .phone-info {
-        width: fit-content;
-    }
-
-    .email-info {
-        width: fit-content;
-    }
-
-    .email-contact {
-        margin-left: 0.7rem;
-    } */
-
 
     /* Base Styles */
 .airHeader {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 13px;
-    padding: 0.5rem;
+    font-size: 12px;
 }
 
 .header-logo {
     max-height: 3rem;
     margin-left: 0.7rem;
-    max-height: 3rem;
+    max-height: 2rem;
 }
 
 .header-logo img {
-    max-height: 3rem;
+    max-height: 2.5rem;
 }
 
 
@@ -105,8 +32,8 @@
 }
 
 .phone-icon img, .email-icon img {
-    max-height: 40px;
     max-width: 40px;
+    max-height: 40px;
 }
 
 .phone-info, .email-info {
@@ -124,6 +51,15 @@
 .email-contact {
     margin-left: 1rem;
 }
+
+
+.right-content {
+    /* display: flex;
+     */
+     flex-direction: row-reverse;
+}
+
+
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {

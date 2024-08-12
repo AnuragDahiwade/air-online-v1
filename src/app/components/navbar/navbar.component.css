@@ -1,0 +1,35 @@
+.navcontainer {
+    margin-bottom: 5px;
+}
+
+.toggleIcon {
+    flex-direction: row-reverse;
+}
+.airNavbar {
+    font-size: 12px;
+}
+.right-content {
+    flex-direction: row-reverse;
+}
+
+.log-in-register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-logo img{
+    max-width: 33px;
+    max-height: 33px;
+}
+
+.register {
+    margin-left: 0.7rem;
+}
+
